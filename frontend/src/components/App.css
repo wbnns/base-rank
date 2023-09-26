@@ -1,0 +1,85 @@
+/* Existing Styles... */
+
+/* Improved Typography and Bulleted List on Homepage */
+.home-content {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.home-content h2,
+.home-content h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.home-content ul {
+  list-style-type: disc; /* Adding Bullets */
+  padding-left: 20px; /* Proper Alignment */
+  margin-bottom: 20px;
+}
+
+.home-content li {
+  margin-bottom: 5px;
+}
+
+/* Centering Table Data */
+table {
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styling the User's Score Row in the Top 100 */
+.user-score-row {
+  background-color: #1652f0; /* Coinbase Blue */
+  color: #ffffff; /* White Text */
+  font-weight: bold;
+}
+
+/* ... Other styles ... */
+
+/* Adjusting Table Headers for better visibility in Dark Mode */
+th {
+  background-color: var(--bg-color); /* Background color based on theme */
+  color: var(--text-color); /* Text color based on theme */
+}
+
+/* Removing Unpleasant Gridlines */
+table {
+  border-collapse: collapse; /* Removing spacing between cell borders */
+}
+
+/* Providing some padding to table cells for better readability */
+th,
+td {
+  padding: 12px;
+}
+
+/* Styling the table to remove unpleasing gridlines */
+.table-light {
+  border: 1px solid #ccc; /* Light mode border color */
+}
+
+.table-dark {
+  border: 1px solid #333; /* Dark mode border color */
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--border-color); /* Border color based on theme */
+}
+
+.dark th {
+  color: #ffffff; /* White Text */
+  font-weight: bold;
+}
